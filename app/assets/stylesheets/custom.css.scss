@@ -1,3 +1,43 @@
-@import 'bootstrap/dist/css/bootstrap';
+// @import 'bootstrap/dist/css/bootstrap';
 
 /* Add custom bootstrap modifications here */
+.navbar {
+  background-color: #000000 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+#jumbotron {
+  background-image: asset-url('jumbo-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+body {
+  background-color: lightgray;
+}
