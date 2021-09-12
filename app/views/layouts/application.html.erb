@@ -15,8 +15,10 @@
     <%= render 'layouts/header' %>
 
     <main class="flex-shrink-0">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+      <div class="container">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
+      </div>
     </main>
 
     <%= render 'layouts/footer' %>
